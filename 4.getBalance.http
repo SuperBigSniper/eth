@@ -1,0 +1,14 @@
+POST http://localhost:8545 HTTP/1.1
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "id": 4,
+    "method": "eth_getBalance",
+    "params": [
+      "0x80dcabee7960e34ebf5e379cca56aaefbc125ede",
+      "latest"
+    ]
+}
+
+# 0x1ee656cc02b4a80000
